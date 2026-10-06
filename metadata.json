@@ -1,0 +1,6 @@
+{
+  "name": "SECUREHAUL Driver Portal",
+  "description": "Driver's Cockpit companion mobile app for SecureHaul OS long-haul truck drivers. Safe. Compliant. Connected.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

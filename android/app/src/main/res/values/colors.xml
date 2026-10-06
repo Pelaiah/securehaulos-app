@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_green">#34785D</color>
+    <color name="glow_green">#22C55E</color>
+    <color name="violation_red">#DC2626</color>
+    <color name="dark_bg">#1C1E21</color>
+    <color name="light_bg">#F2F5F3</color>
+    <color name="muted_text">#6E737B</color>
+</resources>

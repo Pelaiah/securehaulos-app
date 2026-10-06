@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-green: #34785D;
+    --color-glow-green: #22c55e;
+    --color-violation-red: #DC2626;
+    --color-dark-bg: #1C1E21;
+    --color-light-bg: #F2F5F3;
+    --color-muted-text: #6E737B;
+  }
+
+  body {
+    background-color: #0E1012;
+    color: #F3F4F6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Glassmorphism & glows */
+.glow-green {
+  box-shadow: 0 0 25px -4px rgba(52, 120, 93, 0.45);
+}
+
+.glow-green-sm {
+  box-shadow: 0 0 12px -2px rgba(52, 120, 93, 0.35);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px -3px rgba(220, 38, 38, 0.4);
+}
+
+/* Hide scrollbars in mobile preview screens */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
